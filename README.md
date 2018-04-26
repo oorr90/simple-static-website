@@ -1,7 +1,7 @@
-# simple-static-website
+# Isle Royale National Park
 Creating a website with HTML and CSS to review the basics
 
 ## Review concepts
-CSS backgrounds
-Floats
-Positioning
+* CSS backgrounds
+* Floats
+* Positioning
