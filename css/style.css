@@ -1,0 +1,190 @@
+body {
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Merriweather', serif;
+    color: #3a3a3a;
+}
+
+/*********************************
+
+OVERAL STYLES 
+
+*********************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, .8);
+}
+
+
+/*********************************
+
+HEADER
+
+*********************************/
+
+header {
+    text-align: center;
+    font-size: 2.25em;
+    color: rgba(255, 255, 255, 0.8);
+    height: 450px;
+    padding-top: 200px;
+    background-color: #2a77df;
+    background-image: url("../img/cover_photo_waterfall.jpg");
+    background-size: cover;
+}
+
+
+
+/*********************************
+
+MAIN
+
+*********************************/
+
+main {
+    background-color: #f6f6f6;
+    padding-top: 20px;
+}
+
+
+
+.intro {
+    width: 70%;
+    margin: 100px auto 120px;
+    text-align: center;
+    background: #fff;
+    padding: 60px 50px;
+}
+
+.intro h2 {
+    border-bottom: 3px solid #3a3a3a;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.features {
+    width: 85%;
+    text-align: center;
+    margin: 140px auto;
+}
+
+.home_feature {
+    width: 25%;
+    max-width: 320px;
+    min-width: 140px;
+    float: left;
+    margin: 0 4.16666%;
+}
+
+.features h3 {
+    margin: 20px 0 10px;
+}
+
+.features p {
+    font-size: .8em;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.parks {
+    background-color: #e8e8e8;
+    background-image: url("../img/cover_photo_lighthouse.jpg");
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.parks img {
+    width: 160px;
+    margin-bottom: 30px;
+}
+
+.highlight-hero {
+    height: 650px;
+    position: relative;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.right-hero {
+    background-image: url("../img/cover_photo_shoreline.jpg");
+}
+
+.left-hero {
+    background-image: url("../img/cover_photo_moose.jpg");
+}
+
+.highlight-overlay {
+    background-color: rgba(244, 197, 66, .7);
+    position: relative;
+    width: 500px;
+    padding: 40px;
+    margin-top: 140px;
+}
+
+.right-overlay {
+    float: right;
+}
+
+.left-overlay {
+    float: left;
+}
+
+.highlight-overlay a {
+    display: inline-block;
+    margin-top: 15px;
+    border: 3px solid #fff;
+    padding: 3px;
+}
+
+.home-tagline {
+    text-align: center;
+    padding: 200px 0;
+    font-size: 1.5em;
+}
+
+.home-tagline a {
+    color: rgb(244, 197, 66);
+    border: 3px solid rgb(244, 197, 66);
+    display: inline-block;
+    padding: 4px;
+    margin-top: 50px;
+}
+
+footer {
+    padding: 50px 0;
+    text-align: center;
+    font-size: .8em;
+}
