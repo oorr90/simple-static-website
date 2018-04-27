@@ -257,8 +257,8 @@ HOME PAGE: MAIN
 }
 
 .home-tagline a {
-    color: rgb(244, 197, 66, .5);
-    border: 3px solid rgb(244, 197, 66, .7);
+    color: rgba(244, 197, 66, .5);
+    border: 3px solid rgba(244, 197, 66, .7);
     display: inline-block;
     padding: 4px;
     margin-top: 50px;
