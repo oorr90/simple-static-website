@@ -133,7 +133,6 @@ MAIN
 *********************************/
 
 main {
-    background-color: #f6f6f6;
     padding-top: 20px;
 }
 
@@ -221,9 +220,9 @@ HOME PAGE: MAIN
 /********** FEATURE IMAGES ***********/
 
 .features {
-    width: 85%;
+    background-color: #f6f6f6;
     text-align: center;
-    margin: 180px auto;
+    padding: 180px 6%;
 }
 
 .home_feature {
@@ -257,8 +256,8 @@ HOME PAGE: MAIN
 }
 
 .home-tagline a {
-    color: rgba(244, 197, 66, .5);
-    border: 3px solid rgba(244, 197, 66, .7);
+    color: rgba(244, 197, 66, .8);
+    border: 3px solid rgba(244, 197, 66, .8);
     display: inline-block;
     padding: 4px;
     margin-top: 50px;
