@@ -233,8 +233,16 @@ HOME PAGE: MAIN
     margin: 0 4.16666%;
 }
 
+.home_feature img {
+    border-bottom: 5px solid rgb(244, 197, 66);
+}
+
 .features h3 {
+    display: inline-block;
+    padding: 10px;
     margin: 20px 0 10px;
+    color: rgb(244, 197, 66);
+    background-color: #052354;
 }
 
 .features p {
