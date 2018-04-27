@@ -385,6 +385,7 @@ MEDIA QUERIES
     .intro {
         width: 90%;
         font-size: .9em;
+        height: 400px;
     }
     
     .island-image {
