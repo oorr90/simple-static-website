@@ -228,7 +228,7 @@ HOME PAGE: MAIN
 .home_feature {
     width: 25%;
     max-width: 320px;
-    min-width: 140px;
+    min-width: 160px;
     float: left;
     margin: 0 4.16666%;
 }
@@ -306,7 +306,111 @@ FOOTER
 
 
 footer {
-    padding: 50px 0;
-    text-align: center;
-    font-size: .8em;
+    background: rgb(244, 197, 66);
+    padding: 10px 20px;
+    text-align: right;
+    font-size: .75em;
+}
+
+
+
+
+/*********************************
+
+MEDIA QUERIES
+
+*********************************/
+
+@media screen and (max-width: 800px) {
+    
+    nav li {
+        margin: 20px;
+    }
+    
+    header {
+        font-size: 1.75em;
+        height: 550px;
+    }
+    
+    .highlight-hero {
+        height: 525px;
+        font-size: .8em;
+    }
+    
+    .highlight-overlay {
+        padding: 30px;
+    }
+    
+    .features {
+        padding: 80px 4%;
+    }
+    
+    .home_feature {
+        width: 70%;
+        margin: 0 auto 100px;
+        float: none;
+    }
+    
+    .parks {
+        height: 450px;
+    }
+    
+}
+
+
+@media screen and (max-width: 575px) {
+    
+    nav li {
+        float: none;
+        margin: 14px 0;
+    }
+    
+    header {
+        font-size: 1.1em;
+        height: 450px;
+    }
+    
+    header h1 {
+        margin-top: 140px;
+    }
+    
+    header img {
+        display: none;
+    }
+    
+    .header-overlay {
+        background-color: rgba(34, 34, 34, .3);
+    }
+    
+    .intro {
+        width: 90%;
+        font-size: .9em;
+    }
+    
+    .island-image {
+        width: 80px;
+        margin: 75px auto 20px;
+    }
+    
+    .highlight-hero {
+        height: 400px;
+    }
+    
+    .highlight-overlay {
+        box-sizing: border-box;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 80px 40px 40px;
+        border-bottom: none;
+    }
+    
+    .home-tagline {
+        font-size: .8em;
+        padding: 100px 0;
+    }
+    
+    .parks img {
+        width: 80px;
+    }
 }
